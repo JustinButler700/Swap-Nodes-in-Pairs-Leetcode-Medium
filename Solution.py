@@ -13,7 +13,7 @@ class Solution(object):
             nextNode = curr.next.next
             second = curr.next
 
-            #update and swap values
+            #update and swap pointers
             second.next = curr
             curr.next = nextNode
             prev.next = second
